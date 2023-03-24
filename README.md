@@ -1,6 +1,6 @@
+[Home](https://jmsmith.dev/)
 # CSC 450 Research Project
 ### Jonathan Smith
-[Home](https://jmsmith.dev/)
 
 ECSU CSC-450
 
