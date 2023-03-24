@@ -1,5 +1,5 @@
-# CSC-450-FinalProject
-Author: Jonathan Smith
+# CSC 450 Final Project
+## Jonathan Smith
 
 ECSU CSC-450
 
