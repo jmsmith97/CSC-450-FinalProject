@@ -1,4 +1,4 @@
-# CSC 450 Final Project
+# CSC 450 Research Project
 ### Jonathan Smith
 
 ECSU CSC-450
