@@ -1,0 +1,64 @@
+prompt name: Hello World
+description: This function should take a string as input, and add "Hello " to the start and an exclamation mark to the end.
+function name:helloWorld
+args:input: str
+required function:
+tc1:assert helloWorld("World") == "Hello World!"
+tc2:assert helloWorld("Jonathan") == "Hello Jonathan!"
+tc3:assert helloWorld("Class") == "Hello Class!"
+prompt name: Minimum Window Substring
+description: Given two strings s and t, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+function name:minWindow
+args:s: str, t: str
+required function:
+tc1:assert minWindow("ADOBECODEBANC", "ABC") == "BANC"
+tc2:assert minWindow("a", "a") == "a"
+tc3:assert minWindow("a", "aa") == ""
+prompt name: Two Sum
+description: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+function name:twoSum
+args:nums: list[int], target: int
+required function:
+tc1:assert twoSum([2,7,11,15], 9) == [0,1]
+tc2:assert twoSum([3,2,4], 6) == [1,2]
+tc3:assert twoSum([3,3], 6) == [0,1]
+prompt name: Roman to Integer
+description: Given a roman numeral, convert it to an integer.
+function name:romanToInt
+args:s: str
+required function:
+tc1:assert romanToInt("III") == 3
+tc2:assert romanToInt("LVIII") == 58
+tc3:assert romanToInt("MCMXCIV") == 1994
+prompt name: Longest Common Prefix
+description: Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".
+function name:longestCommonPrefix
+args:strs: list[str]
+required function:
+tc1:assert longestCommonPrefix(["flower","flow","flight"]) == "fl"
+tc2:assert longestCommonPrefix(["dog","racecar","car"]) == ""
+tc3:assert longestCommonPrefix(["apple","apricot","application","octagon"]) == ""
+prompt name: Divide Two Integers
+description: Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator. The integer division should truncate toward zero. Return the quotient after dividing dividend by divisor.
+function name:divide
+args:dividend: int, divisor: int
+required function:
+tc1:assert divide(10,3) == 3
+tc2:assert divide(7,-3) == -2
+tc3:assert divide(100, 13) == 7
+prompt name: Permutations
+description: Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+function name:permute
+args:nums: list[int]
+required function:
+tc1:assert permute([1,2,3]) == [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+tc2:assert permute([0,1]) == [[0,1],[1,0]]
+tc3:assert permute([1]) == [[1]]
+prompt name: Sqrt(x)
+description: Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well. You must not use any built-in exponent function or operator.
+function name:mySqrt
+args:x: int
+required function:
+tc1:assert mySqrt(4) == 2
+tc2:assert mySqrt(8) == 2
+tc3:assert mySqrt(67) == 8
